@@ -1,0 +1,45 @@
+body{
+	background-color: #392f5a;
+}
+
+.yell{
+	/*width: 300px;
+	height: 300px;*/
+	background-color: #ffcfd2;
+	color: white;
+	font-size: 4em;
+
+
+	display: inline-block;
+	text-align: center;
+
+
+	/*padding is the space between the border and the content*/
+	padding:100px;
+	writing-mode: vertical-rl;
+	/*text-align: ; or padding-left:30px;*/
+
+	.yell-container{
+		text-align: center;
+	}
+
+	footer {
+		display: none;
+	}
+img.logo{
+	float: left;
+	margin-top: 100px;
+	margin-left: 125px;
+	width: 50px;
+	height: 50px;
+}	
+
+span{
+	color: white;
+	height: 300px;
+	display: inline-block;
+	border: #9BBEC7 solid 4px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+}
