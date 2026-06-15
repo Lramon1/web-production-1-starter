@@ -19,13 +19,15 @@ body{
 	writing-mode: vertical-rl;
 	/*text-align: ; or padding-left:30px;*/
 
-	.yell-container{
+}
+.yell-container{
 		text-align: center;
-	}
+}
 
-	footer {
+footer {
 		display: none;
-	}
+}
+
 img.logo{
 	float: left;
 	margin-top: 100px;
@@ -36,10 +38,10 @@ img.logo{
 
 span{
 	color: white;
+	width: 300px;
 	height: 300px;
 	display: inline-block;
 	border: #9BBEC7 solid 4px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-}
+	overflow-x: hidden;
+	overflow-y: scroll;
 }

@@ -1,0 +1,70 @@
+
+/*89023E
+EFE9E7
+0D324D
+B8D3D1
+8B85C1*/
+.container{
+	width: 200px;
+	height: 200px;
+	background-color:#EFE9E7 ;
+	margin: 20px;
+	display: inline-block;
+
+}
+
+body{
+	/* solution for removing scroll on 
+	an entire wepapge*/
+	overflow-y: scroll;
+	font-family: monospace;
+}
+
+/* syntac to grab all the divs that are children
+of .container class on div */
+div.container > div , .sticky-child{
+	width: 75px;
+	height: 75px;
+	background-color: #8B85C1;
+	
+}
+.static-child{
+	/*this doesn't do anything 
+	it's the default*/
+	position: static;
+}
+.relative-child{
+	position: relative;
+}
+
+/*you can write the rule twice OR use,*/
+/* .relative-parent{
+	position: relative;
+}*/
+
+.absolute-child{
+	position: absolute;
+	/*specifying the exact position
+	using units from top and units from left*/
+	top: 100px;
+	left: 0;
+}
+
+.down-under{
+	position: absolute;
+	top: 2000px;
+}
+
+.fixed-child{
+	position: fixed;
+}
+
+.sticky-child{
+	position: sticky;
+	top: 500px;
+	z-index: -1001;
+}
+
+.big-container > img{
+	z-index:999;
+}
