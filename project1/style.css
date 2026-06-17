@@ -1,0 +1,47 @@
+/*#D6D0FF
+#130129
+#FFD4EE
+#E5DBF1
+*/
+
+
+body{ 
+background-image: url("documentation-images/back.JPG") ; 
+background-size: cover;
+background-attachment: fixed;
+
+color: #130129; 
+font-family: monospace;
+margin:40px;
+text-align: center;
+}
+
+.gallery-scroll{
+	width: 900px;
+	height: 400px;
+	border: #FFD4EE solid 3px;
+	background-color: #BEDEFF;
+	color: #130129;
+	padding: 15px;
+	margin: 0 auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	text-align: center;
+
+
+}
+img {
+    width: 150px;       
+    height: 150px;      
+    object-fit: cover;  /* Evita que tus dibujos se deformen o se estiren */
+    margin: 20px;       
+}
+
+.imagen-grande{
+	width: 400px;       
+    height: 300px;      
+    object-fit: cover;  
+    margin: 20px
+
+}
+
