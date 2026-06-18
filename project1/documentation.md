@@ -41,4 +41,4 @@ I wanted to use my "back.jpg" asset as a background instead of a flat color. I h
 ![project 1](documentation-images/story2.png)!
 [project 1](documentation-images/finale.png)
 ![project 1](documentation-images/finale4.png)
-![project 1](documentation-images/final.png)
+
