@@ -1,0 +1,46 @@
+
+body{
+	font_size: 16px;
+}
+
+@media screen and (width < 600px){
+	body{
+		font-size 32px;
+	}
+}
+
+@media screen and (width >= 600px) and (width < 992px){
+	body{
+		font-size: 1.5rem;
+	}
+}
+.parent-container{
+
+	display: flex;
+	flex-direction: column;
+	/*holy grail of centering items on a page*/
+	justify-content: center;
+	align-items: flex-end;
+	/*if i want to center on the entire page*/
+	height: 100%;
+	gap:30px;
+
+}
+
+span{
+	background: #29BF12;
+	color: #F2DD6E;
+	/*we can nest flex as much as we want, but*/
+}
+ 
+.smaller{
+	flex-grow: 1;
+}
+
+.bigger{
+	flex-grow: 2;
+	/*the flex-grow on the bigger element will be
+	whatever size x number you applied (it is a ratio)*/
+
+	/*eg.2 will mean the bigger wil be 2x the normal size*/
+}
