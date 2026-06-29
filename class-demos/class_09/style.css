@@ -1,0 +1,46 @@
+/*#daf7dc
+*#EB6424* naranja
+#FA9500 naranja amarillento
+#3F88C5 celeste1
+#724CF9 azul1
+#564592 azul marino
+#564592 amarillo pasteloso
+#FFAD05 amarillo naranjoso
+#FFF202 amarillo
+#0019FF azul
+#D80202 rojo*/
+
+body{
+	background: #EB6424;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	
+}
+
+.container{
+	background:#724CF9;
+	height: 100%;
+
+	display: grid;
+	gap: 20px;
+	padding: 10px;
+
+	grid-template-columns: 200px 200px 100px 50px;
+	grid-template-rows: 200px 100px 100px 100px;
+}
+.grid-item{
+	background: white;
+
+	display: inline;
+}
+
+.hidden{ 
+	background:none
+ }
+
+.hidden > * {
+ 	display: none
+ }
