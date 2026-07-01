@@ -1,0 +1,153 @@
+/*#daf7dc *#EB6424* naranja #FA9500 naranja amarillento #3F88C5 celeste1 #724CF9 azul1 #564592 azul marino #564592 amarillo pasteloso #FFAD05 amarillo naranjoso #FFF202 amarillo #0019FF azul #D80202 rojo*/ 
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: monospace; 
+    background-image: url("documentation-images/BE.png"); 
+    background-size: cover; 
+    background-position: center; 
+} 
+
+.container { 
+    width: 100%; 
+    max-width: 900px; 
+    min-height: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    position: relative; 
+    padding: 30px; 
+    box-sizing: border-box; 
+    background-image: url("documentation-images/atras.png"); 
+    background-size: 100% 100%; 
+    background-position: center; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: auto auto auto auto; 
+    gap: 20px; 
+} 
+
+.logo { 
+    width: 50px; 
+    justify-self: start; 
+    align-self: start; 
+} 
+
+.poster-header { 
+    grid-column: 1 / 5; 
+    text-align: center; 
+    margin-top: 60px; 
+} 
+
+.intro { 
+    grid-column: 1 / 5; 
+    grid-row: 3 / 4; 
+    background-image: url("documentation-images/BE.png"); 
+    color: #564592; 
+    width: 300px; 
+    height: 300px; 
+    padding: 18px; 
+    border-radius: 20px; 
+    line-height: 1.6; 
+    font-size: 16px; 
+    margin-top: 400px; 
+    margin-bottom: 20px; 
+    text-align: justify; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    position: relative; 
+    z-index: 10; 
+} 
+
+.graphic-zone { 
+    grid-column: 1 / 5; 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+} 
+
+.sun-element { 
+    position: absolute; 
+    top: 250px; 
+    right: 20px; 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+} 
+
+.river-line-1 { 
+    position: absolute; 
+    top: 250px; 
+    left: -20px; 
+    width: 280px; 
+    height: 280px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+} 
+
+.river-line-2 { 
+    position: absolute; 
+    top: 550px; 
+    left: 400px; 
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+} 
+
+.night-view { 
+    grid-column: 1 / 3; 
+    grid-row: 4; 
+    width: 60%; 
+    height: auto; 
+    aspect-ratio: 1 / 1; 
+    border-radius: 50%; 
+    background-image: url("documentation-images/dulce.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    margin-left: -20px; 
+    margin-top: -20px; 
+} 
+
+@media (max-width: 768px) { 
+    .container { 
+        grid-template-columns: 1fr; 
+        padding: 20px; 
+    } 
+    .logo { 
+        justify-self: center; 
+    } 
+    .poster-header { 
+        grid-column: 1; 
+        margin-top: 20px; 
+    } 
+    .graphic-zone { 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 25px; 
+        position: relative; 
+    } 
+    .sun-element, .river-line-1, .river-line-2 { 
+        width: 180px; 
+        height: 180px; 
+        margin: 0; 
+        position: relative; 
+        top: auto; 
+        left: auto; 
+        right: auto; 
+    } 
+    .night-view, .dulce { 
+        justify-self: center; 
+        margin-top: 20px; 
+        width: 180px; 
+    } 
+    .intro { 
+        font-size: 15px; 
+        text-align: center; 
+        margin-top: 40px; 
+    } 
+}
