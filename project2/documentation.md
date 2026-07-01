@@ -1,4 +1,3 @@
-/*#daf7dc *#EB6424* naranja #FA9500 naranja amarillento #3F88C5 celeste1 #724CF9 azul1 #564592 azul marino #564592 amarillo pasteloso #FFAD05 amarillo naranjoso #FFF202 amarillo #0019FF azul #D80202 rojo*/
 
 # Project 2: My Web Poster 
 
