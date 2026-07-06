@@ -1,0 +1,15 @@
+p{
+	font-family: monospace;
+}
+
+.red-paragraph{
+	background: #564592;
+	color: #724CF9;
+
+}
+
+/*id slector*/
+
+#big-paragraph{
+	font-size: 40px;
+}
