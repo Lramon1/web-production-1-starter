@@ -31,7 +31,7 @@ window.addEventListener("load",()=>{
 	//all of our code that changes the HTML/CSS will live inside these {} 
 	console.log('page has loaded.js connected') 
 
-	// las líneas de textContent e innerHTML de big-paragraph fueron eliminadas por el profesor 
+	
 	document.getElementById('big-paragraph').style.backgroundColor = '#454e9e' 
 
 	// grab the #another id and add a class to it 
