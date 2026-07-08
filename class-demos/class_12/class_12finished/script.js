@@ -3,12 +3,14 @@
 window.addEventListener("load", ()=>{
 // Inside of the function, retrieve the id of the div you created in index.html and assign it to a variable.
 let con = document.getElementById("container"); 
-//add and event listener that detects when the container is hovered over with the mouse usinf the mouseenter
+ //add and event listener that detects when the container is hovered over with the mouse usinf the mouseenter
 container.addEventListener("mouseenter",()=>{
 	container.style.backgroundColor="#eaeaea"
 })
 container.addEventListener("mouseleave",()=>{
 	container.style.backgroundColor="#c0d6df"
+})
+
 })
 //let container = document.querySelector("#container") another option
 // Q: What is another way to write the first line of code? 
