@@ -5,6 +5,9 @@ Cat O'Clock is a browser clock that has a cat that changes its activity dependin
 
 ![project 3](proposal/web.png)
 
+[Shimeji Browser Extension Website](https://shimejis.xyz/)
+
+
 This type of web it inspire me to think of a little doll changing with the time, but then I though using a cat. My idea is use cute gif o cats doing diferent things. I will organize them accord what I want.
 
 ![project 3](proposal/draft.png)
@@ -41,3 +44,5 @@ My HTML documents wil have the link to style.css and -----.js.
 In this part I would make the layout for the clock and the cat gif. Also, I can put the gif in the 'style.css'. 
 
 I will use a div id:, in that way I will be able to apply Js.
+
+
