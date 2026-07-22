@@ -1,16 +1,14 @@
 window.onload = () => { 
-    // Corregido: "document" bien escrito por si necesitas usar tu elemento gato
     let cat = document.querySelector("#cat"); 
     let dateDiv = document.querySelector("#date");
+    let movietime = document.querySelector("#movietime");
 
-    // 1. CREAMOS UNA FUNCIÓN PARA MOSTRAR EL RELOJ DE INMEDIATO
     function actualizarReloj() {
         let date2 = new Date();
         let currentTime = document.createElement('p');
         currentTime.classList.add('catime');
-        
-        if (dateDiv) {
-            dateDiv.innerHTML = ""; // Limpia todo para que no aparezca el texto feo
+       
+        dateDiv.innerHTML = ""; 
             
             let min = date2.getMinutes();
             if (min < 10) { min = "0" + min; }
@@ -19,12 +17,42 @@ window.onload = () => {
             
             currentTime.innerHTML = date2.getHours() + ":" + min + ":" + sec;
             dateDiv.appendChild(currentTime);
-        }
-    }
 
-    // 2. LA EJECUTAMOS AL INSTANTE PARA QUE NO HAYA PARPADEO
-    actualizarReloj();
+            let hour = date2.getHours();
 
-    // 3. TU TIMER DE CLASE QUE COMPLETA EL CICLO CADA SEGUNDO
-    setInterval(actualizarReloj, 1000);
+            // This cange the video clips depending of the hour - cambia el video segun la hora
+
+            
+            if (hour >= 0 && hour < 6 && !cat.src.includes("sleep.mov")) {
+            	cat.src = "videos/sleep.mov";}
+
+            if (hour >= 6 && hour < 12 && !cat.src.includes("strech.mov")) {
+            	cat.src = "videos/strech.mov";}
+
+            if (hour >= 12 && hour < 18 && !cat.src.includes("play.mov")) {
+            	cat.src = "videos/play.mov";}
+
+            if (hour >= 18 && hour < 22 && !cat.src.includes("movie.mov")) {
+            	cat.src = "videos/movie.mov";}
+
+            if (hour >= 22 && !cat.src.includes("night.mov")) {
+            	cat.src = "videos/night.mov";}
+
+            // shows the link in th night
+
+            if (movietime) {
+            	if (hour >= 18 && hour < 22) { movietime.style.display = "block";}
+            	else { movietime.style.display = "none";}
+            }
+
+
+         }
+
+actualizarReloj();
+setInterval(actualizarReloj,1000);
+// se pone al final para que el reloj aparezca inmediatamente
+
 }
+
+
+  
