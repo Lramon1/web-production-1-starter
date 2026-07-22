@@ -21,7 +21,47 @@ body{
 #cat{
     width: 500px;
     position: absolute;
-    bottom: 50;
+    bottom: 50px;
     left: 5%;
   
+}
+
+.about{
+    width: 700px;
+    height: 600px;
+
+    margin: 50px auto;
+    padding: 35px;
+
+    background-color: #F7D8A6;
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+.mycat{
+    width: 300px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+.back{
+    display: inline-block;
+    margin-top: 20px;
+
+    background-color: #D89C5A;
+    color: white;
+
+    padding: 12px 25px;
+    border-radius: 20px;
+
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.back:hover{
+    background-color: #B9783D;
 }
