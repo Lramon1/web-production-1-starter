@@ -29,17 +29,17 @@ window.onload = () => {
             if (hour >= 6 && hour < 8 && !cat.src.includes("strech.mov")) {
             	cat.src = "videos/strech.mov";}
 
-             if (hour >= 8 && hour < 11 && !cat.src.includes("eat.mov")) {
-            	cat.src = "videos/eat.mov";}
+             if (hour >= 8 && hour < 11 && !cat.src.includes("eat.MOV")) {
+            	cat.src = "videos/eat.MOV";}
 
             if (hour >= 11 && hour < 13 && !cat.src.includes("limpio.mov")) {
             	cat.src = "videos/limpio.mov";}
 
-             if (hour >= 13 && hour < 15 && !cat.src.includes("eat.mov")) {
-            	cat.src = "videos/eat.mov";}
+             if (hour >= 13 && hour < 14 && !cat.src.includes("eat.MOV")) {
+            	cat.src = "videos/eat.MOV";}
 
-             if (hour >= 15 && hour < 16 && !cat.src.includes("sit.mov")) {
-            	cat.src = "videos/sit.mov";}
+             if (hour >= 14 && hour < 16 && !cat.src.includes("sit.MOV")) {
+            	cat.src = "videos/sit.MOV";}
 
             if (hour >= 16 && hour < 22 && !cat.src.includes("movie.mov")) {
             	cat.src = "videos/movie.mov";}
