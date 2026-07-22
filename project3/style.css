@@ -26,6 +26,14 @@ body{
   
 }
 
+.next {
+    display: block;
+    margin-top: 20px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .about { 
     background-color: #FFD97D; 
     color: #2C0703; 

@@ -29,19 +29,16 @@ window.onload = () => {
             if (hour >= 6 && hour < 8 && !cat.src.includes("strech.mov")) {
             	cat.src = "videos/strech.mov";}
 
-            if (hour >= 8 && hour < 10 && !cat.src.includes("limpio.mov")) {
+             if (hour >= 8 && hour < 11 && !cat.src.includes("eat.mov")) {
+            	cat.src = "videos/eat.mov";}
+
+            if (hour >= 11 && hour < 12 && !cat.src.includes("limpio.mov")) {
+            	cat.src = "videos/limpio.mov";}
+
+             if (hour >= 12 && hour < 14 && !cat.src.includes("play.mov")) {
             	cat.src = "videos/play.mov";}
 
-            if (hour >= 10 && hour < 11 && !cat.src.includes("limpio.mov")) {
-            	cat.src = "videos/play.mov";}
-
-            if (hour >= 11 && hour < 13 && !cat.src.includes("limpio.mov")) {
-            	cat.src = "videos/play.mov";}
-
-            if (hour >= 13 && hour < 18 && !cat.src.includes("limpio.mov")) {
-            	cat.src = "videos/play.mov";}
-
-            if (hour >= 18 && hour < 22 && !cat.src.includes("movie.mov")) {
+            if (hour >= 14 && hour < 22 && !cat.src.includes("movie.mov")) {
             	cat.src = "videos/movie.mov";}
 
             if (hour >= 22 && !cat.src.includes("night.mov")) {
@@ -50,7 +47,7 @@ window.onload = () => {
             // shows the link in th night
 
             if (movietime) {
-            	if (hour >= 18 && hour < 22) { movietime.style.display = "block";}
+            	if (hour >= 14 && hour < 22) { movietime.style.display = "block";}
             	else { movietime.style.display = "none";}
             }
 
