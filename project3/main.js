@@ -35,8 +35,11 @@ window.onload = () => {
             if (hour >= 11 && hour < 12 && !cat.src.includes("limpio.mov")) {
             	cat.src = "videos/limpio.mov";}
 
-             if (hour >= 12 && hour < 14 && !cat.src.includes("play.mov")) {
-            	cat.src = "videos/play.mov";}
+             if (hour >= 12 && hour < 13 && !cat.src.includes("clean.mov")) {
+            	cat.src = "videos/clean.mov";}
+
+             if (hour >= 13 && hour < 14 && !cat.src.includes("sit.mov")) {
+            	cat.src = "videos/sit.mov";}
 
             if (hour >= 14 && hour < 22 && !cat.src.includes("movie.mov")) {
             	cat.src = "videos/movie.mov";}
